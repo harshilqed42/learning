@@ -1,0 +1,5 @@
+name: 'Cache blocks'
+type: module
+description: 'Contains all the custom blocks.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains cache_blocks.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function cache_blocks_theme() {
+  $theme = [];
+  $theme['most_recent'] = [
+    'variables' => [
+      'titles' => [],
+    ],
+    'template' => 'most-recent',
+  ];
+  return $theme;
+}

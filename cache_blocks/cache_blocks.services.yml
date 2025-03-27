@@ -1,0 +1,6 @@
+services:
+  cache_context.test:
+    class: Drupal\cache_blocks\Cache\Context\TestCacheContext
+    arguments: ['@current_user']
+    tags:
+      - { name: cache.context}

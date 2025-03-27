@@ -1,0 +1,27 @@
+{#
+/**
+  * @file most-recent.html.twig
+  * Default theme implementation to display the revcently added articles.
+  *
+  * Available variables:
+  * - titles - List of titles.
+  * @ingroup themeable
+  */
+#}
+
+{% if titles is not empty %}
+	<div class="list-block">
+		<h3>
+			{{ 'Recently added articles'|t }}
+		</h3>
+		{% for title in titles %}
+			<div class="title">
+				<ul>
+					<li>
+						{{ title }}
+          </li>
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}

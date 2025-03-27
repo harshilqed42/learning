@@ -1,0 +1,39 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: button
+status: stable
+description: A simple button
+libraryOverrides:
+  dependencies:
+    - core/once
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: title
+      description: Button title
+      examples:
+        - 'Click me'
+    type:
+      type: string
+      title: Type
+      description: Button type
+      examples:
+        - 'primary'
+    icon:
+      type: string
+      title: Icon
+      description: Button icon
+      examples:
+        - 'cog.svg'
+    message:
+      type: string
+      title: Message
+      description: Popup message
+      examples:
+        - 'Lorem ipsum'
+  required:
+    - title
+    - type
+    - icon
+    - message

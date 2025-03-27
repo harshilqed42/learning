@@ -1,0 +1,15 @@
+.image-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #124354;
+  border: none;
+  border-radius: 5px;
+}
+.image-button img {
+  height: 20px;
+  margin-right: 10px;
+}

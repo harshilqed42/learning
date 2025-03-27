@@ -1,0 +1,5 @@
+name: 'Custom Cache'
+type: module
+description: 'Caching exercise.'
+core_version_requirement: ^10
+package: Custom

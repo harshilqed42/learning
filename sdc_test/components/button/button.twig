@@ -1,0 +1,16 @@
+ <div {{ attributes.addClass('button') }} data-message="{{ message|default('No message') }}">
+   <button class="{{ type }} image-button">
+     <img src="/{{ componentMetadata.path }}/icons/{{ icon }}" alt="Image">
+     <span>{{ title }}</span>
+   </button>
+</div>
+
+
+
+{# {% block mini_button %}
+  <div {{ attributes.addClass('button') }} data-message="{{ message|default('No message') }}">
+    <button class="primary image-button">
+      <span>{{ title }}</span>
+    </button>
+</div>
+{% endblock %} #}
